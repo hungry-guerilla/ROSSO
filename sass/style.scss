@@ -2,6 +2,11 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 body {
     overflow-x: hidden;
@@ -14,9 +19,30 @@ body {
     max-width: 1922px;
     margin: 0 auto;
 }
-
+hr {
+    color: #7A7A7A;
+ }
 .container {
     max-width: 1602px;
     margin: 0 auto;
-    background-color: black;
+    .first__header {
+        height: 62px;
+        color: #7A7A7A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        .location>.fa-location-dot {
+            padding-right: 5px;
+        }
+        .first__header-phone>.fa-phone {
+            padding-right: 5px;
+        }
+        .first__header-nav-link {
+            padding-right: 10px;
+            &:last-child {
+                padding-right: none;
+            }
+        }
+    }
 }
