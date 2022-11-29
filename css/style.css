@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(_reset.scss);
 * {
   -webkit-box-sizing: border-box;
@@ -15,6 +16,7 @@ body {
   background-color: #ffffff;
   font-family: "Montserrat";
   font-size: 12px;
+  background: url("/img/фон.jpg");
 }
 
 .wrapper {
@@ -56,4 +58,41 @@ hr {
 }
 .container .first__header .first__header-nav-link:last-child {
   padding-right: none;
+}
+
+.second__header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 116px;
+}
+.second__header .icons > i {
+  font-size: 17px;
+  padding-right: 20px;
+}
+.second__header .icons > i:last-child {
+  padding-right: 0px;
+}
+.second__header .second__header-nav {
+  position: absolute;
+  left: 2%;
+}
+.second__header .second__header-nav .second__header-link {
+  padding-right: 7px;
+}
+.second__header .second__header-nav .second__header-link:last-child {
+  padding-right: none;
+}
+.second__header .rosso__logo {
+  position: absolute;
+  left: 40%;
 }/*# sourceMappingURL=style.css.map */

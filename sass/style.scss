@@ -13,6 +13,7 @@ body {
     background-color: #ffffff;
     font-family:'Montserrat';
     font-size: 12px;
+    background: url('/img/фон.jpg');
 }
 
 .wrapper {
@@ -44,5 +45,34 @@ hr {
                 padding-right: none;
             }
         }
+    }
+}
+.second__header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 116px;
+    .icons>i {
+        font-size: 17px;
+        padding-right: 20px;
+        &:last-child {
+            padding-right: 0px;
+        }
+    }
+    .second__header-nav {
+        position: absolute;
+        left: 2%;
+        .second__header-link{
+            padding-right: 7px;
+            &:last-child {
+                padding-right: none;
+            }
+        }
+    }
+    .rosso__logo {
+        position: absolute;
+        left: 40%;
     }
 }
