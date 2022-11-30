@@ -102,6 +102,8 @@ hr {
 .block__one-img {
   position: absolute;
   left: -2.5%;
+  top: -1.6%;
+  height: 921px;
 }
 
 .block__one {
