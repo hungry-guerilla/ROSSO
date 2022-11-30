@@ -158,3 +158,135 @@ hr {
 .dark__grey-link>i {
     padding-left: 5px;
 }
+
+.block__two {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 900PX;
+    width: 100%;
+    height: 1000px;
+    .block__two-title {
+        padding-top: 150px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 110%;
+        color: #444444;
+        &::after {
+            content: '';
+            display: block;
+            background:#7A7A7A;
+            height: 800px;
+            width: 1px;
+            position: absolute;
+            left: 30%;
+            bottom: -70.5%;
+        }
+    }
+    img {
+        width: 320px;
+        height: 320px;
+    }
+    .block__two__card-one {
+        width: 440px;
+        height: 440px;
+        padding: 150px;
+    }
+    .block__two__card-two {
+        width: 440px;
+        height: 440px;
+        padding: 150px;
+    }
+}
+
+.block__two__card-one::after {
+    content:'';
+    display: block;
+    width: 1px;
+    height: 800px;
+    background:#7A7A7A;
+    position: absolute; 
+    left: 72%;
+    top: 90.5%;
+}
+.block__two__card-one-descr {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        color: #444444;
+}
+.profili__fasad {
+    position: relative;
+    padding-top: 150px;
+    padding-left: 120px;
+    width: 440px;
+    height: 160px;
+    img {
+        width: 192px;
+        height: 131px;
+        padding-bottom: 50px;
+    }
+    .block__two__card-one-descr {
+        position: absolute;
+        left: -5%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        color: #444444;
+    }
+}
+.yashiki {
+    padding-top: 150px;
+    padding-right: 280px;
+    padding-left: 250px;
+    
+    img {
+        width: 192px;
+        height: 131px;
+        padding-bottom: 50px;
+    }
+    .block__two__card-one-descr {
+        position: absolute;
+        left: 33%;
+    }
+}
+.yashiki::after {
+    content:'';
+    display: block;
+    height: 1px;
+    width: 1705px;
+    background:#7A7A7A;
+    position: absolute;
+    bottom: -47%;
+    left: -4%;
+}
+
+.Allcat {
+    position: relative;
+    padding-top: 285px;
+    .allcat-link {
+        padding-right: 220px;
+        padding-bottom: 40px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #444444;
+    }
+}
+
+.Allcat::after {
+    content:'';
+    display: block;
+    height: 1px;
+    width: 500px;
+    background:#7A7A7A;
+    position: absolute;
+    left: -10%;
+    bottom: 24%;
+
+}
